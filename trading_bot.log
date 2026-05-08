@@ -1,0 +1,18 @@
+2026-05-08 18:48:35 | INFO | cli | Bot started
+2026-05-08 18:48:35 | INFO | validators | Inputs validated — BUY MARKET | BTCUSDT | Qty: 0.01
+2026-05-08 18:53:12 | INFO | cli | Bot started
+2026-05-08 18:53:12 | INFO | validators | Inputs validated — BUY MARKET | BTCUSDT | Qty: 0.01
+2026-05-08 19:00:25 | INFO | cli | Bot started
+2026-05-08 19:00:25 | INFO | validators | Inputs validated - BUY MARKET | BTCUSDT | Qty: 0.01
+2026-05-08 19:00:25 | INFO | orders | Order Request : BUY MARKET | Symbol: BTCUSDT | Qty: 0.01
+2026-05-08 19:00:26 | INFO | orders | Order Response : OrderID: 920248 | Status: FILLED | ExecutedQty: 0.01 | AvgPrice: 65000
+2026-05-08 19:00:26 | INFO | cli | Bot finished successfully
+2026-05-08 19:12:48 | ERROR | cli | Application error: cannot access local variable 'side' where it is not associated with a value
+2026-05-08 19:17:43 | INFO | validators | Inputs validated - BUY MARKET | UHB | Qty: 0.01
+2026-05-08 19:17:43 | INFO | orders | Order Request : BUY MARKET | Symbol: UHB | Qty: 0.01
+2026-05-08 19:17:44 | INFO | orders | Order Response : OrderID: 179670 | Status: FILLED | ExecutedQty: 0.01 | AvgPrice: 65000
+2026-05-08 19:17:44 | INFO | cli | Bot finished successfully
+2026-05-08 19:19:03 | INFO | validators | Inputs validated - BUY MARKET | BTCUSDT | Qty: 0.01
+2026-05-08 19:19:03 | INFO | orders | Order Request : BUY MARKET | Symbol: BTCUSDT | Qty: 0.01
+2026-05-08 19:19:04 | INFO | orders | Order Response : OrderID: 406168 | Status: FILLED | ExecutedQty: 0.01 | AvgPrice: 65000
+2026-05-08 19:19:04 | INFO | cli | Bot finished successfully
