@@ -1,10 +1,10 @@
-# 🤖 Binance Futures Testnet Trading Bot
+# Binance Futures Testnet Trading Bot
 
 A simple Python CLI trading bot that places Market and Limit orders on Binance Futures Testnet (USDT-M).
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 trading_bot/
@@ -22,7 +22,7 @@ trading_bot/
 
 ---
 
-## ⚙️ Setup Steps
+## Setup Steps
 
 ### 1. Clone or download the project
 ```bash
@@ -56,42 +56,42 @@ BINANCE_API_SECRET=your_api_secret_here
 
 ---
 
-## 🚀 How to Run
+##How to Run
 
-### ✅ Place a MARKET BUY order
+### Place a MARKET BUY order
 ```bash
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
 ```
 
-### ✅ Place a MARKET SELL order
+### Place a MARKET SELL order
 ```bash
 python cli.py --symbol BTCUSDT --side SELL --type MARKET --quantity 0.01
 ```
 
-### ✅ Place a LIMIT BUY order
+### Place a LIMIT BUY order
 ```bash
 python cli.py --symbol BTCUSDT --side BUY --type LIMIT --quantity 0.01 --price 60000
 ```
 
-### ✅ Place a LIMIT SELL order
+### Place a LIMIT SELL order
 ```bash
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 70000
 ```
 
-### ❓ See help
+### See help
 ```bash
 python cli.py --help
 ```
 
 ---
 
-## 📤 Example Output
+## Example Output
 
 ```
-🤖 Binance Futures Testnet Trading Bot Starting...
+Binance Futures Testnet Trading Bot Starting...
 
 ==================================================
-         📦 ORDER REQUEST SUMMARY
+         ORDER REQUEST SUMMARY
 ==================================================
   Symbol     : BTCUSDT
   Side       : BUY
@@ -100,7 +100,7 @@ python cli.py --help
 ==================================================
 
 ==================================================
-         ✅ ORDER RESPONSE
+         ORDER RESPONSE
 ==================================================
   Order ID     : 123456789
   Symbol       : BTCUSDT
@@ -111,26 +111,26 @@ python cli.py --help
   Executed Qty : 0.01
   Avg Price    : 65000.50
 ==================================================
-  🎉 Order placed successfully!
+  Order placed successfully!
 ==================================================
 ```
 
 ---
 
-## 📒 Log File
+## Log File
 
 All activity is saved to `trading_bot.log` in the project root.
 
 Example log entries:
 ```
-2024-01-15 10:30:45 | INFO | validators | ✅ Inputs validated — BUY MARKET | BTCUSDT | Qty: 0.01
-2024-01-15 10:30:45 | INFO | orders | 📋 Order Request → BUY MARKET | Symbol: BTCUSDT | Qty: 0.01
-2024-01-15 10:30:46 | INFO | orders | 📥 Order Response → OrderID: 123456789 | Status: FILLED | ExecutedQty: 0.01 | AvgPrice: 65000.50
+2024-01-15 10:30:45 | INFO | validators |  Inputs validated — BUY MARKET | BTCUSDT | Qty: 0.01
+2024-01-15 10:30:45 | INFO | orders |  Order Request → BUY MARKET | Symbol: BTCUSDT | Qty: 0.01
+2024-01-15 10:30:46 | INFO | orders |  Order Response → OrderID: 123456789 | Status: FILLED | ExecutedQty: 0.01 | AvgPrice: 65000.50
 ```
 
 ---
 
-## 🛡️ Error Handling
+##  Error Handling
 
 | Scenario | What happens |
 |---|---|
@@ -142,7 +142,7 @@ Example log entries:
 
 ---
 
-## 📝 Assumptions
+##  Assumptions
 
 - Uses Binance Futures **Testnet** only (fake money, safe to test)
 - Testnet base URL: `https://testnet.binancefuture.com`
@@ -152,7 +152,7 @@ Example log entries:
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 | Package | Purpose |
 |---|---|
